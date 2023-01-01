@@ -1,0 +1,257 @@
+body {
+    align-items: center;
+    justify-content: center;
+}
+.wrapper > div {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.wrapper {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+}
+
+.One {
+    background-color: rgb(254, 254, 219);
+}
+
+.Two {
+    background-color: rgb(190, 227, 242);
+}
+
+.Three {
+    background: rgb(208, 190, 208);
+}
+
+.wrapper1 {
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.wrapper1 > div {
+    justify-content: center;
+    align-items: center;
+}
+
+.Four {
+    background: rgb(208, 190, 208);
+    display: flex;
+    width: 500px;
+    height: 200px;
+}
+
+.Five {
+    background-color: rgb(254, 254, 219);
+    display: inline-flex;
+    width: 250px;
+    height: 200px;
+}
+
+.Six {
+    background-color: rgb(190, 227, 242);
+    display: inline-flex;
+    width: 250px;
+    height: 200px;
+}
+
+.wrapper2 > div {
+    justify-content: space-evenly;
+    align-items: center;
+    display: inline-flex;
+    background: rgb(208, 190, 208);
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+}
+
+.wrapper2 {
+    width:900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.wrapper3 {
+    width: 800px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+}
+
+.wrapper3 > div {
+    height: 150px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Fourteen {
+    background-color: rgb(254, 254, 219);
+    width: 30%;
+}
+
+.Fifteen {
+    background-color: rgb(190, 227, 242);
+    width: 40%;
+}
+
+.Thirteen {
+    background: rgb(208, 190, 208);
+    width: 70%;
+}
+
+.Sixteen {
+    background-color: rgb(190, 242, 223);
+    width: 60%;
+}
+
+.wrapper4 {
+    width: 800px;
+    height: 150px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+    background-color:rgb(255, 226, 203)
+}
+
+.wrapper4 > div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Left {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(190, 242, 223);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Right {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(190, 242, 223);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 260px;
+}
+
+.wrapper5 {
+    width: 800px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    background-color:rgb(255, 226, 203);
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row; 
+}
+
+.one {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(190, 242, 223);
+    margin: 15px;
+}
+
+.two {
+    height: 110px;
+    width: 80px;
+    background-color: rgb(190, 242, 223);
+    margin: 15px;
+}
+
+.three {
+    height: 160px;
+    width: 80px;
+    background-color: rgb(190, 242, 223);
+    margin: 15px;
+}
+
+.four {
+    height: 130px;
+    width: 80px;
+    background-color: rgb(190, 242, 223);
+    margin: 15px;
+}
+
+.large {
+    width: 800px;
+    margin: auto;
+    display: flex;
+}
+.wrapper6 {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    background-color:rgb(255, 226, 203);
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    width: 220px;
+    height: 90px;
+    background-color: rgb(190, 227, 242);
+    margin-bottom: 25px;
+}
+
+.description {
+    width:300px;
+    height: 90px;
+    background-color: rgb(190, 227, 242);
+}
+
+.nine {
+    margin-left: 150px;
+}
+
+.wrapper7 {
+    width: 299px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    background-color:rgb(250, 214, 185);
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.wrapper7 > div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(190, 242, 223);
+}
+
+.nine {
+    margin-left: 150px;
+}
+

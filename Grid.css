@@ -1,0 +1,238 @@
+
+.grid1{
+    display:grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 5fr 5fr;
+    grid-template-areas:
+    "T1 T1"
+    "T2 T3";
+    height: 300px;
+    width: 40%;
+    margin-right: 30%;
+    margin-left: 30%;
+
+}
+
+.T1{
+    background-color: rgb(128, 223, 255);
+    grid-area: T1;
+}
+
+.T2{
+    background-color: rgb(160, 255, 160);
+    grid-area: T2;
+}
+
+.T3{
+    background-color: rgb(249, 255, 160);
+    grid-area: T3;
+}
+
+
+.grid2{
+    display: grid;
+    margin-right: 20%;
+    margin-left: 20%;
+    grid-template-rows: 10fr;
+    grid-auto-columns: 5fr 5fr;
+    grid-template-areas: 
+    "whole apart";
+
+}
+
+.whole{
+    background-color: rgb(128, 223, 255);
+    grid-area: whole;
+}
+
+.apart{
+    display: grid;
+    grid-area: apart;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 5fr 5fr;
+    grid-template-areas:
+    "a1 a1"
+    "a2 a3";
+    height: 300px;
+}
+
+.a1{
+    background-color: rgb(160, 255, 160);
+    grid-area: a1;
+}
+
+.a2{
+    background-color: rgb(249, 255, 160);
+    grid-area: a2;
+}
+
+.a3{
+    background-color: rgb(213, 206, 255);
+    grid-area: a3;
+}
+
+
+.grid3{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 2fr;
+    grid-template-rows: 4fr 4fr 4fr 4fr ;
+    grid-template-areas:
+    "upper upper upper side"
+    "upper upper upper side"
+    "down down down side"
+    "down down down side";
+    height: 600px;
+}
+
+.upper{
+    display: grid;
+    grid-area: upper;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-rows: 6fr 6fr;
+    grid-template-areas:
+    "u1 u1 u1"
+    "u2 u3 u4";
+}
+
+.u1{
+    background-color: rgb(128, 223, 255);
+    grid-area: u1;
+}
+
+.u2{
+    background-color: rgb(160, 255, 160);
+    grid-area: u2;
+}
+
+.u3{
+    background-color: rgb(249, 255, 160);
+    grid-area: u3;
+}
+
+.u4{
+    background-color: rgb(213, 206, 255);
+    grid-area: u4;
+}
+
+.down{
+    display: grid;
+    grid-area: down;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 10fr;
+    grid-template-areas:
+    "b1 b2";
+}
+
+.b1{
+    background-color: rgb(170, 207, 255);
+    grid-area: b1;
+}
+
+.b2{
+    background-color: rgb(255, 201, 163);
+    grid-area: b2;
+}
+
+.along{
+    grid-area: side;
+    background-color: rgb(154, 255, 238);
+}
+
+
+.GF{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    grid-template-rows:  4fr 4fr 4fr 4fr;
+    grid-template-areas:
+    "up up up side"
+    "down2 down2 down2 side"
+    "down2 down2 down2 side"
+    "down2 down2 down2 side";
+
+} 
+
+.up {
+    background-color: rgb(128, 223, 255);
+    display:flex;
+    grid-area: up;
+}
+
+.one{
+    background-color: rgb(160, 255, 160);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.three{
+    background-color: rgb(165, 250, 221);
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.down2{
+    background-color: rgb(255, 217, 183);
+    display: flex;
+    flex-flow: row-reverse wrap;
+    align-items: center;
+    justify-content: center;
+    grid-area: down2;
+} 
+
+.d1{
+    background-color: powderblue;
+    height: 70px;
+    width: 90%;
+    margin: 15px;
+}
+
+.d2{
+    background-color: rgb(187, 255, 244);
+    width: 28%;
+    height: 100px;
+    margin: 17.5px;
+    grid-area: d2;
+}
+
+.side{
+    display: grid;
+    grid-template-columns: 16fr;
+    grid-template-rows:  4fr 4fr 4fr 4fr;
+    grid-template-areas:
+    "s1"
+    "s1"
+    "s1"
+    "s2";
+    background-color: rgb(249, 255, 160);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    grid-area: side;
+    align-items: center;
+}
+
+.s1{
+    background-color: rgb(170, 207, 255);
+    display: flex;
+    grid-area: s1;
+    width: 50%;
+    flex-grow: 3;
+    margin: 10px;
+}
+
+.s2{
+    background-color: rgb(255, 201, 163);
+    grid-area: s2;
+    flex-grow: 1;
+    width: 50%;
+    margin: 10px;
+}  
+
+h1 {
+    text-align: center;
+}

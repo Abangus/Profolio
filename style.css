@@ -1,0 +1,116 @@
+        #first {
+            background-color: beige;
+            background-image: url(https://img.wallpapersafari.com/desktop/800/450/29/12/Xty8q1.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        #name {font-size: 90px;
+            color: firebrick;
+            margin-left: 35%;}
+
+        #flag {width: 100px;
+            float: right;
+            margin-right: 32%;}
+
+        .topic {font-size: 40px;
+                color: cadetblue;
+                text-align: center;}
+            
+        .Country {width: 500px;
+           padding: 10px;
+           text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            border: 3px dashed cornflowerblue;
+        }
+        
+        #map {width: 350px;
+            margin-left: auto;
+            margin-right: 5%;
+            float: right;}
+        
+        #location {width: 400px;
+            float: left;
+            margin-left: 4%;
+            }
+
+        #video {float: left;
+            margin-left: 3%;
+            margin-bottom: 3%;}
+
+        #time {float: right;
+            margin-right: 3%;
+            margin-bottom: 3%;}
+
+        #fact {
+            font-size: 40px;
+            font-style: oblique;
+            text-align:center;
+            display: inline-block;
+            position:absolute;
+        }
+
+        #fun {
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            min-height: 100vh;
+            background: #f0fcb6;
+            font-style: inherit;
+            font-weight: 200;
+        }
+    
+        .list {
+            width: 500px;
+        }
+    
+        .list h1 {
+            color: #fff;
+            background: #03a9f4;
+            padding: 10px 200px;
+            font-size: 20px;
+            font-weight: 700;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+    
+        .list ul {
+            position:relative;
+            background: #fff;
+        }
+    
+        .list ul li {
+            padding: 10px;
+            width: 95%;
+            background: #fff;
+            box-shadow: 0 5px 25px rgba(0,0,0,.1);
+            transition: transform 0.5s;
+        }
+
+        #second {
+            max-width: 100;
+            background-color: rgba(241, 255, 150, 0.514);
+        }
+        .food {
+            width:300px;
+            position:relative;
+            left:40%;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .delicious {
+            font-style:inherit;
+            text-align: center;
+            color:lightsalmon;
+        }
+    
+        .explain {
+            font-size: 20px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 150px;
+            padding-right: 150px;
+        }

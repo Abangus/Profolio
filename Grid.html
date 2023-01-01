@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        .Grid {
+            display: grid;
+            grid-template-rows: 50px 50px 50px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-areas:
+                "Judy Judy Judy Judy"
+                "Work Angus Angus Angus"
+                "No-Play Angus Angus Angus"
+            ;
+        }
+
+        .Judy {grid-area: Judy;}
+        .Work {grid-area: Work;}
+        .No-Play {grid-area: No-Play;}
+        .Angus {grid-area: Angus;}
+    </style>
+
+</head>
+<body>
+    <div class="Grid">
+        <h1 class="Judy">HELLO</h1>
+        <h1 class="Work">MY NAME IS</h1>
+        <h1 class="No-Play">JUDY CHAO</h1>
+        <h1 class="Angus">I DON'T WEAR PANTS</h1>
+    </div>
+</body>
+</html>

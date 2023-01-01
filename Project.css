@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+nav {
+    width: 98.9vw;
+    background-color: #0b5c8b;
+    overflow: auto ;
+    text-align: center;
+    top: 0;
+}
+
+nav a {
+    color: white;
+}
+ul {
+    display: inline-flex;
+    list-style: none;
+    vertical-align: auto;
+    color: white;
+}
+
+li {
+    margin: 15px;
+    width: 130px;
+    padding:5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#ocean {
+    text-align: center;
+    background-image: url('ocean.png');
+    padding: 95px;
+    background-size: cover;
+    background-position: center;
+    font-size: 80px;
+    color:white;
+}
+
+.wave {
+    text-align: center;
+    vertical-align: auto;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.section {
+    text-align: center;
+    vertical-align: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.OceanWave {
+    background: linear-gradient(rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.575)), url('back.png');   
+    background-size: cover;
+    color: white;
+    width: 98.9vw;
+    height: 100vh;
+}
+.water{
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+.line {
+    width: 300px;
+    font-size: 20px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    width: 300px;
+    margin:0px;
+    padding-right: 20px;
+    padding-left: 100px;
+}
+
+.title {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.bottom {
+    text-align: center;
+    color: white;
+    background-color: #0b5c8b;
+}
+
+.first {
+    padding-top: 50px;
+}
+
+.second {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#picture {
+    width: 300px;
+    padding-left: 150px;
+    padding-right: 50px;
+    padding-top: 70px;
+}
+
+#picture2 {
+    width: 300px;
+    padding-left: 150px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+#picture3 {
+    width: 300px;
+    padding-left: 150px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.together {
+    float:right;
+    margin-top: 120px;
+    margin-right: 430px;
+    margin-bottom: 50px;
+
+}
+
+.top {
+    margin-bottom: 50px;
+}
+
+#text {
+    float: right;
+    margin-right: 400px;
+    margin-top: 170px;
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    font-style: italic;
+}
+
+#case {
+    text-align: right;
+    margin-right: 900px;
+    margin-top: 150px;
+}
+
+#case1 {
+    text-align: right;
+    margin-right: 900px;
+    margin-bottom: 60px;
+}
+
+#word1 {
+    text-align: right;
+    margin-right: 900px;
+    color:#e1e1e1;
+}
+
+#word2 {
+    text-align: right;
+    margin-right: 900px;
+    margin-bottom: 30px;
+    color:#e1e1e1;
+}
+
+#word3 {
+    text-align: right;
+    margin-right: 900px;
+    color:#e1e1e1;
+}
+
+#word4 {
+    text-align: right;
+    margin-right: 900px;
+    margin-bottom: 400px;
+    color:#e1e1e1;
+}
+
+#text1 {
+    float: right;
+    margin-right: 400px;
+    width: 400px;
+    height: 500px;
+    padding: 10px;  
+    font-family: 'Segoe UI', sans-serif;
+    font-style: italic;
+}
+
+#button {
+    margin-left: 700px;
+    margin-right: 400px;
+    text-align: center;
+    background: #bbe1f7; 
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 440px;
+}
+
+#IDK {
+    margin-left: 250px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+#next {
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+
+#what {
+    margin-left: 250px;
+    margin-bottom: 50px;
+    color:#e1e1e1;
+}
+
+.nothing {
+    margin-left: 250px;
+    margin-bottom: 20px;
+    margin-right: 280px;
+}
+
+#wow {
+    margin-left: 250px;
+    margin-right: 280px;
+    width: 1000px;
+    margin-bottom: 100px;
+}
+
